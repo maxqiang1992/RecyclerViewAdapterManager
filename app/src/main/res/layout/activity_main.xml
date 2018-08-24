@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.recyclerviewadaptermanager.MainActivity">
+
+    <Button
+        android:onClick="linearLayoutAdapter"
+        android:id="@+id/linearLayoutAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="LinearLayoutAdapter" />
+
+    <Button
+        android:onClick="gridLayoutAdapter"
+        android:id="@+id/gridLayoutAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="GridLayoutAdapter" />
+    <Button
+        android:onClick="expandedAdapter"
+        android:id="@+id/expandedAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="ExpandedAdapter" />
+    <Button
+        android:onClick="group"
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="GroupAdapter" />
+</LinearLayout>
